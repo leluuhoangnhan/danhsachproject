@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QL_TOURDULICH" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LELUUHOANGNHAN;Initial Catalog=QL_TOURDULICH;User ID=sa" SettingsObjectName="TourDuLich.Properties.Settings" SettingsPropertyName="QL_TOURDULICHConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CTTOUR" Member="CTTOURs">
+    <Type Name="CTTOUR">
+      <Column Name="MATOUR" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="BIENSOXE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="NGAYBD" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="NGAYKT" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="TOUR_CTTOUR" Member="TOUR" ThisKey="MATOUR" OtherKey="MATOUR" Type="TOUR" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.XE" Member="XEs">
+    <Type Name="XE">
+      <Column Name="BIENSOXE" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MANV" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TINHTRANG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MALOAIXE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="XE_GHE" Member="GHEs" ThisKey="BIENSOXE" OtherKey="BIENSOXE" Type="GHE" />
+      <Association Name="LOAIXE_XE" Member="LOAIXE" ThisKey="MALOAIXE" OtherKey="MALOAIXE" Type="LOAIXE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CTHD" Member="CTHDs">
+    <Type Name="CTHD">
+      <Column Name="MAHD" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MATOUR" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MAGHE" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SLNGUOI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="GHE_CTHD" Member="GHE" ThisKey="MAGHE" OtherKey="MAGHE" Type="GHE" IsForeignKey="true" />
+      <Association Name="HOADON_CTHD" Member="HOADON" ThisKey="MAHD" OtherKey="MAHD" Type="HOADON" IsForeignKey="true" />
+      <Association Name="TOUR_CTHD" Member="TOUR" ThisKey="MATOUR" OtherKey="MATOUR" Type="TOUR" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CHITIETNV" Member="CHITIETNVs">
+    <Type Name="CHITIETNV">
+      <Column Name="MANV" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GIOITINH" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="NGAYSINH" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="SDT" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CMND" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Association Name="NHANVIEN_CHITIETNV" Member="NHANVIEN" ThisKey="MANV" OtherKey="MANV" Type="NHANVIEN" IsForeignKey="true" />
+      <Association Name="TAIKHOAN_CHITIETNV" Member="TAIKHOAN" ThisKey="SDT" OtherKey="TENDN" Type="TAIKHOAN" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GHE" Member="GHEs">
+    <Type Name="GHE">
+      <Column Name="MAGHE" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TINHTRANG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BIENSOXE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Association Name="GHE_CTHD" Member="CTHDs" ThisKey="MAGHE" OtherKey="MAGHE" Type="CTHD" />
+      <Association Name="XE_GHE" Member="XE" ThisKey="BIENSOXE" OtherKey="BIENSOXE" Type="XE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HINHANH" Member="HINHANHs">
+    <Type Name="HINHANH">
+      <Column Name="MAHINH" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TENHINH" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="HINHANH_TOUR" Member="TOURs" ThisKey="MAHINH" OtherKey="MAHINH" Type="TOUR" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HOADON" Member="HOADONs">
+    <Type Name="HOADON">
+      <Column Name="MAHD" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MAKH" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MANV" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NGAYLAP" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="TONGTIEN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="HOADON_CTHD" Member="CTHDs" ThisKey="MAHD" OtherKey="MAHD" Type="CTHD" />
+      <Association Name="KHACHHANG_HOADON" Member="KHACHHANG" ThisKey="MAKH" OtherKey="MAKH" Type="KHACHHANG" IsForeignKey="true" />
+      <Association Name="NHANVIEN_HOADON" Member="NHANVIEN" ThisKey="MANV" OtherKey="MANV" Type="NHANVIEN" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KHACHHANG" Member="KHACHHANGs">
+    <Type Name="KHACHHANG">
+      <Column Name="MAKH" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TENKH" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SDT" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CMND" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="DIACHI" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="KHACHHANG_HOADON" Member="HOADONs" ThisKey="MAKH" OtherKey="MAKH" Type="HOADON" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LOAITOUR" Member="LOAITOURs">
+    <Type Name="LOAITOUR">
+      <Column Name="MALOAITOUR" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TENLOAITOUR" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="LOAITOUR_TOUR" Member="TOURs" ThisKey="MALOAITOUR" OtherKey="MALOAITOUR" Type="TOUR" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LOAIXE" Member="LOAIXEs">
+    <Type Name="LOAIXE">
+      <Column Name="MALOAIXE" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TENLOAI" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="SOGHE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CHIPHI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="LOAIXE_XE" Member="XEs" ThisKey="MALOAIXE" OtherKey="MALOAIXE" Type="XE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NHANVIEN" Member="NHANVIENs">
+    <Type Name="NHANVIEN">
+      <Column Name="MANV" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TENNV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LUONGCB" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HINHANH" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Association Name="NHANVIEN_CHITIETNV" Member="CHITIETNV" ThisKey="MANV" OtherKey="MANV" Type="CHITIETNV" Cardinality="One" />
+      <Association Name="NHANVIEN_HOADON" Member="HOADONs" ThisKey="MANV" OtherKey="MANV" Type="HOADON" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PHANQUYEN" Member="PHANQUYENs">
+    <Type Name="PHANQUYEN">
+      <Column Name="NHOM" Type="System.String" DbType="NVarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PHANQUYEN" Member="PHANQUYEN1" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Association Name="PHANQUYEN_TAIKHOAN" Member="TAIKHOANs" ThisKey="NHOM" OtherKey="NHOM" Type="TAIKHOAN" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TAIKHOAN" Member="TAIKHOANs">
+    <Type Name="TAIKHOAN">
+      <Column Name="TENDN" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MATKHAU" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="NHOM" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Association Name="TAIKHOAN_CHITIETNV" Member="CHITIETNVs" ThisKey="TENDN" OtherKey="SDT" Type="CHITIETNV" />
+      <Association Name="PHANQUYEN_TAIKHOAN" Member="PHANQUYEN" ThisKey="NHOM" OtherKey="NHOM" Type="PHANQUYEN" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TOUR" Member="TOURs">
+    <Type Name="TOUR">
+      <Column Name="MATOUR" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MALOAITOUR" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TENTOUR" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MAHINH" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CHIPHI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TOUR_CTTOUR" Member="CTTOUR" ThisKey="MATOUR" OtherKey="MATOUR" Type="CTTOUR" Cardinality="One" />
+      <Association Name="TOUR_CTHD" Member="CTHDs" ThisKey="MATOUR" OtherKey="MATOUR" Type="CTHD" />
+      <Association Name="HINHANH_TOUR" Member="HINHANH" ThisKey="MAHINH" OtherKey="MAHINH" Type="HINHANH" IsForeignKey="true" />
+      <Association Name="LOAITOUR_TOUR" Member="LOAITOUR" ThisKey="MALOAITOUR" OtherKey="MALOAITOUR" Type="LOAITOUR" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

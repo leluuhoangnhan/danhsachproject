@@ -1,0 +1,5 @@
+C:\Users\LeLuuHoangNhan\Downloads\Kiem dinh chat luong pm\QL_CuaHangVatLieuXayDung\CodedUITestHoaDonBanHang\bin\Debug\CodedUITestHoaDonBanHang.dll
+C:\Users\LeLuuHoangNhan\Downloads\Kiem dinh chat luong pm\QL_CuaHangVatLieuXayDung\CodedUITestHoaDonBanHang\bin\Debug\CodedUITestHoaDonBanHang.pdb
+C:\Users\LeLuuHoangNhan\Downloads\Kiem dinh chat luong pm\QL_CuaHangVatLieuXayDung\CodedUITestHoaDonBanHang\obj\Debug\CodedUITestHoaDonBanHang.dll
+C:\Users\LeLuuHoangNhan\Downloads\Kiem dinh chat luong pm\QL_CuaHangVatLieuXayDung\CodedUITestHoaDonBanHang\obj\Debug\CodedUITestHoaDonBanHang.pdb
+C:\Users\LeLuuHoangNhan\Downloads\Kiem dinh chat luong pm\QL_CuaHangVatLieuXayDung\CodedUITestHoaDonBanHang\obj\Debug\CodedUITestHoaDonBanHang.csprojResolveAssemblyReference.cache

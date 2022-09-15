@@ -1,0 +1,19 @@
+5
+Tuổi
+Giới tính
+Gia đình
+Thu nhập
+Mua nhà
+12
+Nhân_25_Nam_Có_5000_Không
+Hiền_30_Nữ_Không_10000_Có
+Nghĩa_35_Nữ_Có_15000_Có
+Huy_35_Nam_Không_5000_Có
+Tài_25_Nữ_Có_10000_Có
+Tú_35_Nam_Không_10000_Không
+Sơn_30_Nam_Không_5000_Có
+Quốc_25_Nữ_Có_10000_Không
+An_30_Nữ_Không_5000_Có
+Tâm_35_Nam_Không_15000_Có
+Trí_30_Nam_Có_10000_Có
+Nhi_30_Nữ_Có_15000_Không

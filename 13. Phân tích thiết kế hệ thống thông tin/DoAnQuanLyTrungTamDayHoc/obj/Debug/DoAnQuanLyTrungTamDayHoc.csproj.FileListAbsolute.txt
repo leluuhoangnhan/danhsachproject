@@ -1,0 +1,61 @@
+C:\Users\LeLuuHoangNhan\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\bin\Debug\DoAnQuanLyTrungTamDayHoc.exe.config
+C:\Users\LeLuuHoangNhan\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\bin\Debug\DoAnQuanLyTrungTamDayHoc.exe
+C:\Users\LeLuuHoangNhan\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\bin\Debug\DoAnQuanLyTrungTamDayHoc.pdb
+C:\Users\LeLuuHoangNhan\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.csprojResolveAssemblyReference.cache
+C:\Users\LeLuuHoangNhan\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmDangNhap.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmMain.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.Properties.Resources.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.csproj.GenerateResource.Cache
+C:\Users\LeLuuHoangNhan\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.exe
+C:\Users\LeLuuHoangNhan\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.pdb
+C:\Users\LeLuuHoangNhan\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmDangKyHoc.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmQLHocVien.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmCongNo.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmThoiKhoaBieu.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmXemKetQuaHocTap.resources
+C:\Users\dell\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\bin\Debug\DoAnQuanLyTrungTamDayHoc.exe.config
+C:\Users\dell\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.exe
+C:\Users\dell\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.pdb
+C:\Users\dell\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\bin\Debug\DoAnQuanLyTrungTamDayHoc.exe
+C:\Users\dell\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\bin\Debug\DoAnQuanLyTrungTamDayHoc.pdb
+C:\Users\dell\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.csprojResolveAssemblyReference.cache
+C:\Users\dell\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmCongNo.resources
+C:\Users\dell\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmDangKyHoc.resources
+C:\Users\dell\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmDangNhap.resources
+C:\Users\dell\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmMain.resources
+C:\Users\dell\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmQLHocVien.resources
+C:\Users\dell\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmThoiKhoaBieu.resources
+C:\Users\dell\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmXemKetQuaHocTap.resources
+C:\Users\dell\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.Properties.Resources.resources
+C:\Users\dell\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.csproj.GenerateResource.Cache
+C:\Users\dell\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmQLLopHoc.resources
+C:\Users\dell\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmQLNhanVien.resources
+C:\Users\Admin\Desktop\Học Tập\Ngoc\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\bin\Debug\DoAnQuanLyTrungTamDayHoc.exe.config
+C:\Users\Admin\Desktop\Học Tập\Ngoc\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.exe
+C:\Users\Admin\Desktop\Học Tập\Ngoc\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.pdb
+C:\Users\Admin\Desktop\Học Tập\Ngoc\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\bin\Debug\DoAnQuanLyTrungTamDayHoc.exe
+C:\Users\Admin\Desktop\Học Tập\Ngoc\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\bin\Debug\DoAnQuanLyTrungTamDayHoc.pdb
+C:\Users\Admin\Desktop\Học Tập\Ngoc\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmCongNo.resources
+C:\Users\Admin\Desktop\Học Tập\Ngoc\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmDangKyHoc.resources
+C:\Users\Admin\Desktop\Học Tập\Ngoc\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmDangNhap.resources
+C:\Users\Admin\Desktop\Học Tập\Ngoc\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmMain.resources
+C:\Users\Admin\Desktop\Học Tập\Ngoc\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmQLHocVien.resources
+C:\Users\Admin\Desktop\Học Tập\Ngoc\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmQLLopHoc.resources
+C:\Users\Admin\Desktop\Học Tập\Ngoc\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmQLNhanVien.resources
+C:\Users\Admin\Desktop\Học Tập\Ngoc\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmThoiKhoaBieu.resources
+C:\Users\Admin\Desktop\Học Tập\Ngoc\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmXemKetQuaHocTap.resources
+C:\Users\Admin\Desktop\Học Tập\Ngoc\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.Properties.Resources.resources
+C:\Users\Admin\Desktop\Học Tập\Ngoc\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\Học Tập\Ngoc\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmCTNhanVien.resources
+C:\Users\Admin\Desktop\Học Tập\Ngoc\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Học Tập\Ngoc\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmTaoTaiKhoan.resources
+C:\Users\Admin\Desktop\Học Tập\Ngoc\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmPhanMem.resources
+C:\Users\dell\Desktop\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\bin\Debug\DoAnQuanLyTrungTamDayHoc.exe.config
+C:\Users\dell\Desktop\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.exe
+C:\Users\dell\Desktop\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.pdb
+C:\Users\LeLuuHoangNhan\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.QLPhongHoc.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmCTNhanVien.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmPhanMem.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmQLLopHoc.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmQLNhanVien.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnQuanLyTrungTamDayHoc\DoAnQuanLyTrungTamDayHoc\obj\Debug\DoAnQuanLyTrungTamDayHoc.frmTaoTaiKhoan.resources

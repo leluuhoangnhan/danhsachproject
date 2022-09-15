@@ -1,0 +1,516 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="DoAn_Web_LeLuuHoangNhan_Masterpage.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link rel="icon" href="favicon.jpg" />
+    <title>LÊ LƯU HOÀNG NHÂN - CHUYÊN BẤT ĐỘNG SẢN SÀI GÒN</title>
+<%--    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>--%>
+
+    <style>
+        /*----------------------------Khu vực chung (Default)---------------------------*/
+        body{
+            font-family: Arial;
+            font-size:14px;
+        }
+        #main{
+            width:1200px;
+            padding:0;
+            margin-right:auto;
+            margin-left:auto;
+        }
+
+
+        #head {
+            height: 250px;
+            background-color: #114674;
+            border: 1px solid #114674;
+            margin-bottom: 20px;
+        }
+        #head_link {
+            height: 50px;
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+        }
+        #content {
+            height: 1350px;
+            width: 780px;
+            float: left;
+            margin-bottom: 20px;
+        }
+
+
+        #right {
+            height: 900px;
+            width: 390px;
+            float: right;
+            margin-bottom: 700px;
+        }
+        #foot {
+            height: 300px;
+            background-color: #000000;
+            border: 1px solid #000000;
+            clear:both;
+        }
+
+
+        /*----------CON_HEAD----------*/
+        #demtren_ba_head{
+            height:40px;
+        }
+
+        #mot_head{
+            height: 45px;
+            background-color: #000000;
+            border: 1px solid #000000;
+        }
+        #con_mot_head{
+            width:1100px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        .canchinh_mot_head_mot{
+            float:left;
+            padding-top:14px;
+            padding-bottom:10px;
+            font-size:12px;
+            color:#ffffff;
+            text-decoration:none;
+            margin-right:12px;
+        }
+        .canchinh_mot_head_mot:hover{
+            color:#161ae6;
+        }
+        .canchinh_mot_head_hai{
+            float:right;
+            padding-top:7px;
+            padding-bottom:5px;
+            margin-right:13px;
+            border-radius:2px;
+        }
+        .canchinh_mot_head_hai:hover{
+             transform: rotate(-10deg) scale(1.3);
+             opacity:0.5;
+        }
+        .canchinh_mot_head_hai_css{
+            float:right;
+            padding-top:15px;
+            padding-bottom:5px;
+            margin-right:13px;
+            color:#2955ff;
+            font-size:13px;
+        }
+        .canchinh_mot_head_hai_css:hover {
+            color:#f5f015;
+            font-size:16px;
+        }
+
+        #hai_head{
+            height: 200px;
+            background-color: #114674;
+            border: 1px solid #114674;
+        }
+        #ba_head{
+            height: 80px;
+            width:1000px;
+            margin-left:auto;
+            margin-right:auto;
+            margin-bottom:35px;
+        }
+        .canchinh_ba_head_mot{
+            float:left;
+            height:50px;
+            width:220px;
+            background-color:#ffffff;
+            border:#ffffff;
+            margin-top:17px;
+            margin-bottom:17px;
+        }
+        .canchinh_ba_head_hai{
+            float:right;
+            width:650px;
+        }
+        #bon_head{
+            height: 45px;
+            width:1000px;
+            background-color: #000000;
+            border: 1px solid #000000;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        .canchinh_bon_head_mot {
+            font-size:17px;
+            color:#ffffff;
+            text-decoration:none;
+            margin-right:14px;
+        }
+        .canchinh_bon_head_mot:hover{
+            background-color:#1c20f2;
+            font-size:15px;
+            font-weight:bold;
+        }
+        #bon_head ul li{
+            display:inline;
+            height:auto;
+            width:auto;
+            line-height:40px;
+            border:1px;
+            position:relative;
+        }
+        #main_menu{
+            margin-left:auto;
+            margin-right:auto;
+            margin-top:auto;
+            margin-bottom:auto;
+        }
+        #bon_head ul li .sub_menu{
+            display:none;
+            position:absolute;
+            top:17px;
+            left:25px;
+            width:80px;
+            height:auto;
+            line-height:40px;
+            border-bottom:1px solid #ffffff;
+            background-color:#2e2525;
+        }
+        #bon_head ul li:hover .sub_menu {
+            display:block;
+        }
+        .canchinh_bon_head_hai {
+            font-size:17px;
+            color:#ffffff;
+            text-decoration:none;
+        }
+        .sub_menu li:hover{
+            background-color:#c8c3c3;
+        }
+
+
+
+        /*----------CON_HEAD_LINK----------*/
+        .boTronCacCanh{
+            border-radius:2px;
+        }
+
+
+
+        /*----------CON_RIGHT----------*/
+        .styleTitle{
+            color:#ffffff;
+            font-size:24px;
+            font-weight:bold;
+            background-color:#1c20f2;
+            margin-top:auto;
+            margin-bottom:auto;
+            padding-left:10px;
+            padding-right:20px;
+        }
+        .title{
+            height:28px;
+            width:380px;
+            float:left;
+            background-color:#000000;
+        }
+        .demTrong{
+            height:50px;
+        }
+
+
+
+        /*----------CON_FOOT----------*/
+        #foot_tren{
+            height:250px;
+        }
+        #foot_duoi{
+            height:48px;
+            background-color:#494848;
+            border:1px solid #494848;
+        }
+        .canGiua{
+            margin-left:275px;
+        }
+        .titleFoot{
+            height:28px;
+            width:340px;
+            float:left;
+            background-color:#494848;
+        }
+        .canchinh_foot_danhMuc {
+            font-size:17px;
+            color:#ffffff;
+            text-decoration:none;
+        }
+        .canchinh_foot_danhMuc:hover{
+            color:#1c20f2;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <div id="main">
+
+        <div id="head">
+            <div id="mot_head">
+                <div id="con_mot_head">
+                    <asp:HyperLink ID="hyl_1" runat="server" Text="Trang chủ" NavigateUrl="Home.aspx" CssClass="canchinh_mot_head_mot"></asp:HyperLink>
+                    <asp:HyperLink ID="hyl_2" runat="server" Text="Giới thiệu" NavigateUrl="About.aspx" CssClass="canchinh_mot_head_mot"></asp:HyperLink>
+                    <asp:HyperLink ID="hyl_3" runat="server" Text="Liên hệ" NavigateUrl="Contact.aspx" CssClass="canchinh_mot_head_mot"></asp:HyperLink>
+
+                    <asp:HyperLink ID="hyl_6" runat="server" NavigateUrl="https://www.instagram.com/" ImageUrl="https://i.pinimg.com/originals/d5/40/aa/d540aa0f826ac9511206f90b6f3bb5a6.png" ImageWidth="28px" ImageHeight="28px" CssClass="canchinh_mot_head_hai"  Target="_blank" ></asp:HyperLink>
+                    <asp:HyperLink ID="hyl_5" runat="server" NavigateUrl="https://www.youtube.com/" ImageUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1280px-YouTube_full-color_icon_%282017%29.svg.png" ImageWidth="28px" ImageHeight="28px" CssClass="canchinh_mot_head_hai"  Target="_blank" ></asp:HyperLink>
+                    <asp:HyperLink ID="hyl_4" runat="server" NavigateUrl="https://www.facebook.com/" ImageUrl="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" ImageWidth="28px" ImageHeight="28px" CssClass="canchinh_mot_head_hai"  Target="_blank" ></asp:HyperLink>
+
+                    <a class="canchinh_mot_head_hai_css" target="_blank" href="QuanTam.aspx">Quan Tâm</a>
+                </div>
+            </div>
+
+            <div id="hai_head">
+                <div id="demtren_ba_head"></div>
+                <div id="ba_head">
+                    <asp:HyperLink ID="hyl_7" runat="server" NavigateUrl="Home.aspx" ImageUrl="https://4.bp.blogspot.com/-G7NPGPOQhLA/X09AxpXILGI/AAAAAAAAABE/uwpckm8jLFMX1z4NJ9q_2-RJCLMZfjuGwCK4BGAYYCw/s1600/Untitled-2.jpg" ImageWidth="220px" ImageHeight="50px" CssClass="canchinh_ba_head_mot" ></asp:HyperLink>
+                    <asp:HyperLink ID="hyl_8" runat="server" NavigateUrl="About.aspx" ImageUrl="https://1.bp.blogspot.com/-bw8ZJakkQsk/X3iJbER7EjI/AAAAAAAAAUY/75IDIR6lM045yJdpS02PWbfpvrgmTH_ZACLcBGAsYHQ/s16000/Untitled-1.gif" ImageWidth="650px" ImageHeight="80px" CssClass="canchinh_ba_head_hai" ></asp:HyperLink>
+                </div>
+
+
+                <div id="bon_head">
+                    <ul id="main_menu">
+                        <li><asp:HyperLink ID="hyl_9" runat="server" Text="&nbsp; 🏠" NavigateUrl="~/Home.aspx" CssClass="canchinh_bon_head_mot" Font-Size="22px"></asp:HyperLink></li>
+                        <li><asp:HyperLink ID="hyl_10" runat="server" Text="TIN MỚI" NavigateUrl="~/Tin_Moi.aspx" CssClass="canchinh_bon_head_mot" ></asp:HyperLink></li>
+                        <li><asp:HyperLink ID="hyl_11" runat="server" Text="CHUNG CƯ BÁN" NavigateUrl="#" CssClass="canchinh_bon_head_mot" ></asp:HyperLink>
+                            <ul class="sub_menu">
+                                <li><asp:HyperLink ID="hyl_16" runat="server" Text="Quận&nbsp;2" NavigateUrl="~/ChungCuBanQ2.aspx" CssClass="canchinh_bon_head_hai"></asp:HyperLink></li>
+                                <li><asp:HyperLink ID="hyl_17" runat="server" Text="Quận&nbsp;9" NavigateUrl="~/ChungCuBanQ9.aspx"  CssClass="canchinh_bon_head_hai"></asp:HyperLink></li>
+                            </ul>
+                        </li>
+                        <li><asp:HyperLink ID="hyl_12" runat="server" Text="CHUNG CƯ THUÊ" NavigateUrl="#" CssClass="canchinh_bon_head_mot" ></asp:HyperLink>
+                            <ul class="sub_menu">
+                                <li><asp:HyperLink ID="HyperLink1" runat="server" Text="Quận&nbsp;2" NavigateUrl="~/ChungCuThueQ2.aspx" CssClass="canchinh_bon_head_hai"></asp:HyperLink></li>
+                                <li><asp:HyperLink ID="HyperLink2" runat="server" Text="Quận&nbsp;9" NavigateUrl="~/ChungCuThueQ9.aspx"  CssClass="canchinh_bon_head_hai"></asp:HyperLink></li>
+                            </ul>
+                        </li>
+                        <li><asp:HyperLink ID="hyl_13" runat="server" Text="SALE GIÁ SỐC" NavigateUrl="#" CssClass="canchinh_bon_head_mot" ></asp:HyperLink>
+                            <ul class="sub_menu">
+                                <li><asp:HyperLink ID="HyperLink3" runat="server" Text="Quận&nbsp;2" NavigateUrl="~/SaleQ2.aspx" CssClass="canchinh_bon_head_hai"></asp:HyperLink></li>
+                                <li><asp:HyperLink ID="HyperLink4" runat="server" Text="Quận&nbsp;9" NavigateUrl="~/SaleQ9.aspx"  CssClass="canchinh_bon_head_hai"></asp:HyperLink></li>
+                            </ul>
+                        </li>
+                        <li><asp:HyperLink ID="hyl_14" runat="server" Text="THÔNG TIN DỰ ÁN" NavigateUrl="#" CssClass="canchinh_bon_head_mot" ></asp:HyperLink>
+                            <ul class="sub_menu">
+                                <li><asp:HyperLink ID="HyperLink5" runat="server" Text="Quận&nbsp;2" NavigateUrl="~/ThongtinduanQ2.aspx" CssClass="canchinh_bon_head_hai"></asp:HyperLink></li>
+                                <li><asp:HyperLink ID="HyperLink6" runat="server" Text="Quận&nbsp;9" NavigateUrl="~/ThongtinduanQ9.aspx"  CssClass="canchinh_bon_head_hai"></asp:HyperLink></li>
+                            </ul>
+                        </li>
+                        <li><asp:HyperLink ID="hyl_15" runat="server" Text="TUYỂN DỤNG" NavigateUrl="~/Tuyen_Dung.aspx" CssClass="canchinh_bon_head_mot" ></asp:HyperLink></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div id="head_link">
+            <asp:TextBox ID="master_txt_timKiem" runat="server" Text="Nhập nội dung cần tìm kiếm ....." Width="300px" Height="30px" MaxLength="100" CssClass="boTronCacCanh"></asp:TextBox>&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="master_but_timKiem" runat="server" Text="Tìm kiếm" Font-Bold="true" Font-Size="20px" BackColor="#f74c00" CssClass="boTronCacCanh"/>
+        </div>
+
+
+
+        <div id="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+
+
+        <div id="right">
+            <div id="login">
+                
+                    <div class="title">
+                        <asp:Label ID="master_lbl_login" runat="server" Text="Đăng Nhập/ Đăng Ký" CssClass="styleTitle"></asp:Label><br />
+                    </div>
+                    <br /><br /><br /><br />
+                
+                <div style="margin-left:5px">
+                    <asp:ImageButton ID="master_btn_login_img" runat="server" ImageUrl="https://1.bp.blogspot.com/-fkxomOjw7G4/YPP3SykyKxI/AAAAAAAACXM/59vW-mW4I2MujnGFOJoPgSiZ7GuV50KTQCLcBGAsYHQ/s16000/Untitled-1.gif" ImageWidth="300px" ImageHeight="300px" OnClick="btn_open_login_Click" ></asp:ImageButton>
+
+                     <asp:MultiView ID="master_mtv_login" runat="server">
+                        <asp:View ID="master_view_dangNhap" runat="server">
+                            <asp:Label ID="master_lbl_titleDangNhap" runat="server" Text="THÔNG TIN ĐĂNG NHẬP" Font-Bold="true" ForeColor="red" Font-Size="20px"></asp:Label><br /><br />
+
+                            <div id="noiDungLogin">
+                                <asp:Label ID="master_lbl_user" runat="server" Text="Tên đăng nhập" Font-Bold="true" ForeColor="black" Font-Size="18px"></asp:Label><br />
+                                <asp:TextBox ID="master_txt_user" runat="server" Width="200px" CssClass="boTronCacCanh" MaxLength="100" ></asp:TextBox><br /><br />
+                                <asp:Label ID="master_lbl_pass" runat="server" Text="Mật khẩu" Font-Bold="true" ForeColor="black" Font-Size="18px"></asp:Label><br />
+                                <asp:TextBox ID="master_txt_pass" runat="server" Width="200px" CssClass="boTronCacCanh" MaxLength="100" TextMode="Password"></asp:TextBox><br /><br />
+                                <asp:Button ID="master_btn_dangnhap" runat="server" Text="Đăng nhập" Width="90px" Font-Bold="true" Font-Size="14px" BackColor="Orange" OnClick="btn_login_Click"/> &nbsp;&nbsp;
+                                <asp:Button ID="master_btn_dangky_from" runat="server" Text="Đăng ký" Width="90px" Font-Bold="true" Font-Size="14px" BackColor="Orange" OnClick="btn_registration_Click1" />
+                                <br /><br /><br />
+
+                                <asp:Label ID="master_lbl_kq_dangNhap" runat="server" Text="" ForeColor="Red" Font-Bold="true" Font-Size="18px"></asp:Label>
+                            </div>
+                        </asp:View>
+                
+
+                        <asp:View ID="master_view_dangKy" runat="server">
+                            <asp:Label ID="master_lbl_titleDangKy" runat="server" Text="ĐĂNG KÝ" Font-Bold="true" ForeColor="red" Font-Size="20px"></asp:Label><br /><br />
+
+                            <div id="noiDung_DangKy">
+                                <asp:Label ID="master_lbl_hoTen_DK" runat="server" Text="Họ và tên*" Font-Bold="true" ForeColor="black" Font-Size="18px"></asp:Label><br />
+                                <asp:TextBox ID="master_txt_hoTen_DK" runat="server" Width="200px" CssClass="boTronCacCanh" MaxLength="100" ></asp:TextBox><br /><br />
+                                <asp:Label ID="master_lbl_user_DK" runat="server" Text="Tài khoản*" Font-Bold="true" ForeColor="black" Font-Size="18px"></asp:Label><br />
+                                <asp:TextBox ID="master_txt_user_DK" runat="server" Width="200px" CssClass="boTronCacCanh" MaxLength="100" ></asp:TextBox><br /><br />
+                                <asp:Label ID="master_lbl_pass_DK" runat="server" Text="Mật khẩu*" Font-Bold="true" ForeColor="black" Font-Size="18px"></asp:Label><br />
+                                <asp:TextBox ID="master_txt_pass_DK" runat="server" Width="200px" CssClass="boTronCacCanh" MaxLength="100" TextMode="Password"></asp:TextBox><br /><br />
+                                <asp:Label ID="master_lbl_pass_XN_DK" runat="server" Text="Xác nhận mật khẩu*" Font-Bold="true" ForeColor="black" Font-Size="18px"></asp:Label><br />
+                                <asp:TextBox ID="master_txt_pass_XN_DK" runat="server" Width="200px" CssClass="boTronCacCanh" MaxLength="100" TextMode="Password"></asp:TextBox><br /><br />
+
+                                <asp:Button ID="master_btn_quayLai_dangNhap" runat="server" Text="Quay lại đăng nhập" Width="140px" Font-Bold="true" Font-Size="14px" BackColor="Orange" OnClick="btn_quayLai_DangNhap_Click"/> &nbsp;&nbsp;
+                                <asp:Button ID="master_btn_dangky" runat="server" Text="Đăng ký" Width="90px" Font-Bold="true" Font-Size="14px" BackColor="Orange" OnClick="btn_registration_Click" />
+                                <br /><br /><br />
+
+                                <asp:Label ID="master_lbl_kq_dangKy" runat="server" Text="" ForeColor="Red" Font-Bold="true" Font-Size="18px"></asp:Label>
+                            </div>
+                        </asp:View>
+
+
+                        <asp:View ID="master_view_dangNhap_True" runat="server">
+                            <asp:Label ID="master_lbl_chucMung" runat="server" Text="" ForeColor="Red" Font-Bold="true" Font-Size="18px"></asp:Label><br /><br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="master_lbl_chaoMung" runat="server" Text="" ForeColor="Blue" Font-Bold="true" Font-Size="27px"></asp:Label><br /><br />
+                            &nbsp;&nbsp;<asp:Label ID="master_lbl_chaoMung_HoTen" runat="server" Text="" ForeColor="Black" Font-Bold="true" Font-Size="40px"></asp:Label><br /><br />
+
+                            <asp:Button ID="master_btn_dangXuat" runat="server" Text="Đăng xuất" Width="90px" Font-Bold="true" Font-Size="14px" BackColor="Orange" OnClick="btn_dangXuat_Click"/>
+                        </asp:View>
+                    </asp:MultiView>
+                </div>
+            </div>
+
+                <div class="demTrong"></div>
+                
+            <div id="tin_Hot">
+                <div class="title">
+                    <asp:Label ID="master_lbl_tinHot" runat="server" Text="Tin Hot" CssClass="styleTitle"></asp:Label><br />
+                </div>
+                <br /><br /><br /><br />
+                <div style="margin-left:5px">
+                    <div id="noiDungTinHot">
+                        <asp:HyperLink ID="hyl_ndtinhot" runat="server" NavigateUrl="~/Contact.aspx" ImageUrl="https://1.bp.blogspot.com/-KypEXZFY0D0/X38So0tELpI/AAAAAAAAAjw/kyojIlS-DykgyDK8zzTZ9eDlI82NjfHrACLcBGAsYHQ/s16000/S%25E1%25BB%259F-H%25E1%25BB%25AFu-Ngay.gif" ImageWidth="360px" ImageHeight="600px" Target="_blank" ></asp:HyperLink>
+                    </div>
+                </div>
+            </div>   
+
+                <div class="demTrong"></div>
+                
+            <div id="bieuMau">
+                <div class="title">
+                    <asp:Label ID="master_lbl_bieumau" runat="server" Text="Biểu Mẫu Liên Hệ" CssClass="styleTitle"></asp:Label><br />
+                </div>
+                <br /><br /><br /><br />
+                <div style="margin-left:5px">
+                    <div id="noiDungBieuMau">
+                        <asp:Label ID="master_lbl_ten" runat="server" Text="Họ và tên*" Font-Bold="true" ForeColor="black" Font-Size="18px"></asp:Label><br />
+                        <asp:TextBox ID="master_txt_ten" runat="server" Width="320px" CssClass="boTronCacCanh" MaxLength="100" ></asp:TextBox><br /><br />
+                        <asp:Label ID="master_lbl_email" runat="server" Text="Email*" Font-Bold="true" ForeColor="black" Font-Size="18px"></asp:Label><br />
+                        <asp:TextBox ID="master_txt_email" runat="server" Width="320px" CssClass="boTronCacCanh" MaxLength="100" ></asp:TextBox><br />
+                        <asp:RegularExpressionValidator ID="master_check_Email" runat="server" ControlToValidate="master_txt_email" ErrorMessage="Email không hợp lệ" Font-Bold="true" Font-Size="18px" ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ></asp:RegularExpressionValidator><br /><br />
+
+                        <asp:Label ID="master_lbl_thongbao" runat="server" Text="Thông báo*" Font-Bold="true" ForeColor="black" Font-Size="18px"></asp:Label><br />
+                        <asp:TextBox ID="master_txt_thongbao" runat="server" Width="320px" TextMode="MultiLine" Height="90px" CssClass="boTronCacCanh" MaxLength="500" ></asp:TextBox><br /><br />
+                        <asp:Button ID="master_btn_submit_thongbao" runat="server" Text="Gửi" Width="320px" Font-Bold="true" Font-Size="14px" BackColor="#1c20f2" ForeColor="White" OnClick="btn_guiBieuMau_Click"/><br /><br />
+                        <asp:Label ID="out_thongbao_submit" runat="server" Text="" Font-Bold="true" ForeColor="red" Font-Size="18px"></asp:Label><br />
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+        <div id="foot">
+            <div id="foot_tren">
+                <table border="1" style="border-color:black;height:auto;width:auto;line-height:30px">
+                    <tr>
+                        <td style="border-right-width:50px;border-bottom-width:15px">
+                            <div class="titleFoot">
+                                <asp:Label ID="master_lbl_duannoibat" runat="server" Text="Dự Án Nổi Bật" CssClass="styleTitle"></asp:Label><br />
+                            </div>
+                        </td>
+                        <td style="border-right-width:50px;border-bottom-width:15px">
+                            <div class="titleFoot">
+                                <asp:Label ID="master_lbl_thongtinlienhe" runat="server" Text="Thông Tin Liên Hệ" CssClass="styleTitle"></asp:Label><br />
+                            </div>
+                        </td>
+                        <td style="border-bottom-width:15px">
+                            <div class="titleFoot">
+                                <asp:Label ID="master_lbl_luottruycap" runat="server" Text="Số Lượt Truy Cập" CssClass="styleTitle"></asp:Label><br />
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom:1px solid #494848;border-right-width:50px">
+                            <asp:HyperLink ID="hyl_dm_1" runat="server" Text="Feliz En Vista" NavigateUrl="~/ChungCuThueQ2.aspx" CssClass="canchinh_foot_danhMuc"></asp:HyperLink>
+                        </td>
+                        <td>
+                            <asp:Label ID="master_lbl_giolv" runat="server" Text="Giờ làm việc : Thứ 2 - Thứ 7 (Từ 8:00 - 20:30)" CssClass="canchinh_foot_danhMuc" ForeColor="#c8c3c3"></asp:Label>
+                        </td>
+                        <td>
+                            <asp:Label ID="Label1" runat="server" Text="1.000.000" CssClass="canchinh_foot_danhMuc" ForeColor="#c8c3c3"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom:1px solid #494848;border-right-width:50px">
+                            <asp:HyperLink ID="HyperLink7" runat="server" Text="Vista Verder" NavigateUrl="~/ChungCuThueQ9.aspx" CssClass="canchinh_foot_danhMuc"></asp:HyperLink>
+                        </td>
+                        <td>
+                            <asp:Label ID="Label2" runat="server" Text="Hotline (Zalo) : 0938.237.485" CssClass="canchinh_foot_danhMuc" ForeColor="#c8c3c3"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom:1px solid #494848;border-right-width:50px">
+                            <asp:HyperLink ID="HyperLink8" runat="server" Text="One Verandah" NavigateUrl="~/ChungCuBanQ2.aspx" CssClass="canchinh_foot_danhMuc"></asp:HyperLink>
+                        </td>
+                        <td>
+                            <asp:Label ID="Label3" runat="server" Text="Email : leluuhoangnhan@gmail.com" CssClass="canchinh_foot_danhMuc" ForeColor="#c8c3c3"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom:1px solid #494848;border-right-width:50px">
+                            <asp:HyperLink ID="HyperLink9" runat="server" Text="Novaland" NavigateUrl="~/ChungCuBanQ9.aspx" CssClass="canchinh_foot_danhMuc"></asp:HyperLink>
+                        </td>
+                        <td>
+                            <asp:Label ID="Label4" runat="server" Text="Địa chỉ : 02 Phan Văn Đáng, Thạnh Mỹ Lợi, Q.2, HCM." CssClass="canchinh_foot_danhMuc" ForeColor="#c8c3c3"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom:1px solid #494848;border-right-width:50px">
+                            <asp:HyperLink ID="HyperLink10" runat="server" Text="The CBD" NavigateUrl="~/ChungCuThueQ2.aspx" CssClass="canchinh_foot_danhMuc"></asp:HyperLink>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <div id="foot_duoi">
+                <br />
+                <asp:Label ID="banQuyen" runat="server" Text="&#169;Bản quyền thuộc Lê Lưu Hoàng Nhân&nbsp;" ForeColor="#e9f215" Font-Size="18px" CssClass="canGiua" >
+                    <asp:Label ID="banQuyenNhom" runat="server" Text="(Đồ Án Web Cả Nhóm NHÂN + ĐỨC + HIỀN)" ForeColor="white" Font-Size="18px"></asp:Label>
+                </asp:Label>           
+            </div>
+        </div>
+
+
+    </div>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AACC2B8B-B728-4FB8-9B55-DF0ABBD339D9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QL_CuaHangVatLieuXayDung</RootNamespace>
+    <AssemblyName>QL_CuaHangVatLieuXayDung</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppSetting.cs" />
+    <Compile Include="Baocaonhap.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Baocaonhap.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Baocaoxuat.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Baocaoxuat.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="From_chuaBaocao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="From_chuaBaocao.Designer.cs">
+      <DependentUpon>From_chuaBaocao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="from_chubaocao2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="from_chubaocao2.Designer.cs">
+      <DependentUpon>from_chubaocao2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HoaDonNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HoaDonNhap.Designer.cs">
+      <DependentUpon>HoaDonNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HoaDonXuat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HoaDonXuat.Designer.cs">
+      <DependentUpon>HoaDonXuat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HoaDonXuat_Test.cs" />
+    <Compile Include="KetNoiHeThong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KetNoiHeThong.Designer.cs">
+      <DependentUpon>KetNoiHeThong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhachHang.Designer.cs">
+      <DependentUpon>KhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NhaCungCap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhaCungCap.Designer.cs">
+      <DependentUpon>NhaCungCap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhanVien.Designer.cs">
+      <DependentUpon>NhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QL_CHVLXDDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QL_CHVLXDDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QL_CuaHangVatLieuXayDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QL_CuaHangVatLieuXayDung.Designer.cs">
+      <DependentUpon>QL_CuaHangVatLieuXayDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VatLieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VatLieu.Designer.cs">
+      <DependentUpon>VatLieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XuLyDuLieu.cs" />
+    <EmbeddedResource Include="Baocaonhap.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Baocaonhap.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Baocaoxuat.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Baocaoxuat.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="From_chuaBaocao.resx">
+      <DependentUpon>From_chuaBaocao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="from_chubaocao2.resx">
+      <DependentUpon>from_chubaocao2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HoaDonNhap.resx">
+      <DependentUpon>HoaDonNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HoaDonXuat.resx">
+      <DependentUpon>HoaDonXuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KetNoiHeThong.resx">
+      <DependentUpon>KetNoiHeThong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachHang.resx">
+      <DependentUpon>KhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhaCungCap.resx">
+      <DependentUpon>NhaCungCap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanVien.resx">
+      <DependentUpon>NhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="QL_CuaHangVatLieuXayDung.resx">
+      <DependentUpon>QL_CuaHangVatLieuXayDung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VatLieu.resx">
+      <DependentUpon>VatLieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="PNG-48\Thumbs.db" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PNG-48\Add.png" />
+    <Content Include="PNG-48\Back.png" />
+    <None Include="QL_CHVLXDDataSet.xsc">
+      <DependentUpon>QL_CHVLXDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QL_CHVLXDDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QL_CHVLXDDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QL_CHVLXDDataSet.xss">
+      <DependentUpon>QL_CHVLXDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\tinhtien.png" />
+    <None Include="PNG-48\backgorund.png" />
+    <None Include="PNG-48\backgorund_vlxd.png" />
+    <None Include="PNG-48\backgorund-pan.png" />
+    <None Include="PNG-48\backgorund_2.png" />
+    <None Include="PNG-48\banHang.png" />
+    <Content Include="PNG-48\Bar Chart.png" />
+    <None Include="PNG-48\cap_nhat.png" />
+    <Content Include="PNG-48\Comment.png" />
+    <None Include="PNG-48\DANGNHAP.png" />
+    <Content Include="PNG-48\Delete.png" />
+    <Content Include="PNG-48\Email.png" />
+    <Content Include="PNG-48\Exit.png" />
+    <None Include="PNG-48\img_sql.png" />
+    <None Include="PNG-48\Form-Background.jpg" />
+    <None Include="PNG-48\hoadonban.jpg" />
+    <Content Include="PNG-48\Info.png" />
+    <None Include="PNG-48\kho.jpg" />
+    <Content Include="PNG-48\Line Chart.png" />
+    <Content Include="PNG-48\Load.png" />
+    <Content Include="PNG-48\Loading.png" />
+    <Content Include="PNG-48\Modify.png" />
+    <Content Include="PNG-48\Next.png" />
+    <None Include="PNG-48\nhanvien.jpg" />
+    <None Include="PNG-48\nhacungcap.png" />
+    <None Include="PNG-48\nhaphang.png" />
+    <Content Include="PNG-48\Picture.png" />
+    <Content Include="PNG-48\Pie Chart.png" />
+    <Content Include="PNG-48\Print.png" />
+    <Content Include="PNG-48\Profile.png" />
+    <Content Include="PNG-48\Save.png" />
+    <Content Include="PNG-48\Search.png" />
+    <None Include="PNG-48\SQL-Database.png" />
+    <None Include="PNG-48\SQL-Database-new.png" />
+    <None Include="PNG-48\sua.png" />
+    <None Include="PNG-48\user.png" />
+    <None Include="PNG-48\vatlieu.jpg" />
+    <None Include="PNG-48\SQL-ICON.png" />
+    <None Include="PNG-48\thongke.png" />
+    <None Include="PNG-48\tat.png" />
+    <Content Include="PNG-48\Warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

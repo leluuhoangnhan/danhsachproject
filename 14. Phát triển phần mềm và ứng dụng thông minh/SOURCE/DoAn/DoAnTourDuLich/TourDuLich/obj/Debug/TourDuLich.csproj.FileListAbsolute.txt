@@ -1,0 +1,199 @@
+E:\LUUDULIEUSINHVIEN\DoAnTourDuLich\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.exe.config
+E:\LUUDULIEUSINHVIEN\DoAnTourDuLich\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.exe
+E:\LUUDULIEUSINHVIEN\DoAnTourDuLich\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.pdb
+E:\LUUDULIEUSINHVIEN\DoAnTourDuLich\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.csprojResolveAssemblyReference.cache
+E:\LUUDULIEUSINHVIEN\DoAnTourDuLich\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmMain.resources
+E:\LUUDULIEUSINHVIEN\DoAnTourDuLich\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmTaiKhoan.resources
+E:\LUUDULIEUSINHVIEN\DoAnTourDuLich\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.Properties.Resources.resources
+E:\LUUDULIEUSINHVIEN\DoAnTourDuLich\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.csproj.GenerateResource.Cache
+E:\LUUDULIEUSINHVIEN\DoAnTourDuLich\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.exe
+E:\LUUDULIEUSINHVIEN\DoAnTourDuLich\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.pdb
+E:\LUUDULIEUSINHVIEN\DoAnTourDuLich\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmNhanVien.resources
+E:\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.exe.config
+E:\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.exe
+E:\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.pdb
+E:\PTPM\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.exe.config
+E:\PTPM\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.exe
+E:\PTPM\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.pdb
+E:\PTPM\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.csprojResolveAssemblyReference.cache
+E:\PTPM\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTHoaDon.resources
+E:\PTPM\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTTour.resources
+E:\PTPM\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTXe.resources
+E:\PTPM\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmKhachHang.resources
+E:\PTPM\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyHoaDon.resources
+E:\PTPM\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyTour.resources
+E:\PTPM\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmMain.resources
+E:\PTPM\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmNhanVien.resources
+E:\PTPM\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyXe.resources
+E:\PTPM\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmTaiKhoan.resources
+E:\PTPM\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.Properties.Resources.resources
+E:\PTPM\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.csproj.GenerateResource.Cache
+E:\PTPM\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.exe
+E:\PTPM\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.pdb
+C:\Users\LeLuuHoangNhan\Downloads\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.exe.config
+C:\Users\LeLuuHoangNhan\Downloads\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.exe
+C:\Users\LeLuuHoangNhan\Downloads\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.pdb
+C:\Users\LeLuuHoangNhan\Downloads\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.exe
+C:\Users\LeLuuHoangNhan\Downloads\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.pdb
+C:\Users\LeLuuHoangNhan\Downloads\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.csprojResolveAssemblyReference.cache
+C:\Users\LeLuuHoangNhan\Downloads\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTHoaDon.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTTour.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTXe.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmKhachHang.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyHoaDon.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyTour.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmMain.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmNhanVien.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyXe.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmTaiKhoan.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.Properties.Resources.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.csproj.GenerateResource.Cache
+C:\Users\LeLuuHoangNhan\Downloads\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmThemLoaiTour.resources
+C:\Users\LeLuuHoangNhan\Downloads\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmThemSuaTour.resources
+E:\Dang lam\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.exe.config
+E:\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.exe
+E:\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.pdb
+E:\Dang lam\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.exe
+E:\Dang lam\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.pdb
+E:\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.csprojResolveAssemblyReference.cache
+E:\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTHoaDon.resources
+E:\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTTour.resources
+E:\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTXe.resources
+E:\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmKhachHang.resources
+E:\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyHoaDon.resources
+E:\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyTour.resources
+E:\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmMain.resources
+E:\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmNhanVien.resources
+E:\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyXe.resources
+E:\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmTaiKhoan.resources
+E:\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmThemLoaiTour.resources
+E:\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmThemSuaTour.resources
+E:\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.Properties.Resources.resources
+E:\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.csproj.GenerateResource.Cache
+C:\Users\LeLuuHoangNhan\Downloads\Moi\Dang lam\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.exe.config
+C:\Users\LeLuuHoangNhan\Downloads\Moi\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.exe
+C:\Users\LeLuuHoangNhan\Downloads\Moi\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.pdb
+C:\Users\LeLuuHoangNhan\Downloads\Moi\Dang lam\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.exe
+C:\Users\LeLuuHoangNhan\Downloads\Moi\Dang lam\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.pdb
+C:\Users\LeLuuHoangNhan\Downloads\Moi\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.csprojResolveAssemblyReference.cache
+C:\Users\LeLuuHoangNhan\Downloads\Moi\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTHoaDon.resources
+C:\Users\LeLuuHoangNhan\Downloads\Moi\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTTour.resources
+C:\Users\LeLuuHoangNhan\Downloads\Moi\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTXe.resources
+C:\Users\LeLuuHoangNhan\Downloads\Moi\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmKhachHang.resources
+C:\Users\LeLuuHoangNhan\Downloads\Moi\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyHoaDon.resources
+C:\Users\LeLuuHoangNhan\Downloads\Moi\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyTour.resources
+C:\Users\LeLuuHoangNhan\Downloads\Moi\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmMain.resources
+C:\Users\LeLuuHoangNhan\Downloads\Moi\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmNhanVien.resources
+C:\Users\LeLuuHoangNhan\Downloads\Moi\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyXe.resources
+C:\Users\LeLuuHoangNhan\Downloads\Moi\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmTaiKhoan.resources
+C:\Users\LeLuuHoangNhan\Downloads\Moi\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmThemLoaiTour.resources
+C:\Users\LeLuuHoangNhan\Downloads\Moi\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmThemSuaTour.resources
+C:\Users\LeLuuHoangNhan\Downloads\Moi\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.Properties.Resources.resources
+C:\Users\LeLuuHoangNhan\Downloads\Moi\Dang lam\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.csproj.GenerateResource.Cache
+D:\DoAn\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.exe.config
+D:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.exe
+D:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.pdb
+D:\DoAn\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.exe
+D:\DoAn\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.pdb
+D:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.csprojResolveAssemblyReference.cache
+D:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTHoaDon.resources
+D:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTTour.resources
+D:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTXe.resources
+D:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmKhachHang.resources
+D:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyHoaDon.resources
+D:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyTour.resources
+D:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmMain.resources
+D:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmNhanVien.resources
+D:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyXe.resources
+D:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmTaiKhoan.resources
+D:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmThemLoaiTour.resources
+D:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmThemSuaTour.resources
+D:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.Properties.Resources.resources
+D:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.csproj.GenerateResource.Cache
+D:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmThemSuaLoaiXe.resources
+E:\DoAn\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.exe.config
+E:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.exe
+E:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.pdb
+E:\DoAn\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.exe
+E:\DoAn\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.pdb
+E:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.csprojResolveAssemblyReference.cache
+E:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTHoaDon.resources
+E:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTTour.resources
+E:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTXe.resources
+E:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmKhachHang.resources
+E:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyHoaDon.resources
+E:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyTour.resources
+E:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmMain.resources
+E:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmNhanVien.resources
+E:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyXe.resources
+E:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmTaiKhoan.resources
+E:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmThemLoaiTour.resources
+E:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmThemSuaLoaiXe.resources
+E:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmThemSuaTour.resources
+E:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.Properties.Resources.resources
+E:\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.csproj.GenerateResource.Cache
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DoAn\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.exe.config
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DoAn\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.exe
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DoAn\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.pdb
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTHoaDon.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTTour.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTXe.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmKhachHang.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyHoaDon.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyTour.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmMain.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmNhanVien.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyXe.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmTaiKhoan.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmThemLoaiTour.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmThemSuaLoaiXe.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmThemSuaTour.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.Properties.Resources.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.csproj.GenerateResource.cache
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.exe
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.pdb
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.exe.config
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.exe
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.pdb
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTHoaDon.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTTour.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTXe.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmKhachHang.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyHoaDon.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyTour.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmMain.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmNhanVien.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyXe.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmTaiKhoan.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmThemLoaiTour.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmThemSuaLoaiXe.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmThemSuaTour.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.Properties.Resources.resources
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.csproj.GenerateResource.cache
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.exe
+C:\Users\Admin\OneDrive - Ho Chi Minh city University of Food Industry\Máy tính\Code\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.pdb
+C:\Users\LeLuuHoangNhan\Downloads\DA_PTPMUDTM_NHOM_6\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.exe.config
+C:\Users\LeLuuHoangNhan\Downloads\DA_PTPMUDTM_NHOM_6\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.exe
+C:\Users\LeLuuHoangNhan\Downloads\DA_PTPMUDTM_NHOM_6\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.pdb
+C:\Users\LeLuuHoangNhan\Downloads\DA_PTPMUDTM_NHOM_6\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.exe
+C:\Users\LeLuuHoangNhan\Downloads\DA_PTPMUDTM_NHOM_6\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\bin\Debug\TourDuLich.pdb
+C:\Users\LeLuuHoangNhan\Downloads\DA_PTPMUDTM_NHOM_6\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.csprojResolveAssemblyReference.cache
+C:\Users\LeLuuHoangNhan\Downloads\DA_PTPMUDTM_NHOM_6\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTHoaDon.resources
+C:\Users\LeLuuHoangNhan\Downloads\DA_PTPMUDTM_NHOM_6\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTTour.resources
+C:\Users\LeLuuHoangNhan\Downloads\DA_PTPMUDTM_NHOM_6\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmCTXe.resources
+C:\Users\LeLuuHoangNhan\Downloads\DA_PTPMUDTM_NHOM_6\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmKhachHang.resources
+C:\Users\LeLuuHoangNhan\Downloads\DA_PTPMUDTM_NHOM_6\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyHoaDon.resources
+C:\Users\LeLuuHoangNhan\Downloads\DA_PTPMUDTM_NHOM_6\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyTour.resources
+C:\Users\LeLuuHoangNhan\Downloads\DA_PTPMUDTM_NHOM_6\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmMain.resources
+C:\Users\LeLuuHoangNhan\Downloads\DA_PTPMUDTM_NHOM_6\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmNhanVien.resources
+C:\Users\LeLuuHoangNhan\Downloads\DA_PTPMUDTM_NHOM_6\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmQuanLyXe.resources
+C:\Users\LeLuuHoangNhan\Downloads\DA_PTPMUDTM_NHOM_6\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmTaiKhoan.resources
+C:\Users\LeLuuHoangNhan\Downloads\DA_PTPMUDTM_NHOM_6\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmThemLoaiTour.resources
+C:\Users\LeLuuHoangNhan\Downloads\DA_PTPMUDTM_NHOM_6\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmThemSuaLoaiXe.resources
+C:\Users\LeLuuHoangNhan\Downloads\DA_PTPMUDTM_NHOM_6\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.frmThemSuaTour.resources
+C:\Users\LeLuuHoangNhan\Downloads\DA_PTPMUDTM_NHOM_6\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.Properties.Resources.resources
+C:\Users\LeLuuHoangNhan\Downloads\DA_PTPMUDTM_NHOM_6\DA_PTPMUDTM_NHOM_6\SOURCE\DoAn\DoAnTourDuLich\TourDuLich\obj\Debug\TourDuLich.csproj.GenerateResource.Cache

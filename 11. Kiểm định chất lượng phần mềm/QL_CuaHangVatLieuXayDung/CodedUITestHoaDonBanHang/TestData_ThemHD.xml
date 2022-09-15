@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestDatas>
+  <Addition> <!--Đúng-->
+    <MaHD>HD001</MaHD>
+    <TenKH>Nguyễn Anh Phi</TenKH>
+    <TenNV>Phan Văn Đạt</TenNV>
+    <NgayLap>20-May-2022</NgayLap>
+    <TenSP>Tôn Mạ Màu</TenSP>
+    <DonGia>100</DonGia>
+    <DonViTinh>Viên</DonViTinh>
+    <SoLuong>50</SoLuong>
+    <KetQuaMongDoi>Thanh cong</KetQuaMongDoi>
+  </Addition>
+
+  <Addition> <!--Sai =>> 1 hđ không có 2 kh-->
+    <MaHD>HD001</MaHD>
+    <TenKH>Huỳnh Quốc Tuấn</TenKH>
+    <TenNV>Huỳnh Đức Long</TenNV>
+    <NgayLap>10-May-2022</NgayLap>
+    <TenSP>Tôn Mạ Màu</TenSP>
+    <DonGia>100</DonGia>
+    <DonViTinh>Viên</DonViTinh>
+    <SoLuong>50</SoLuong>
+    <KetQuaMongDoi>That bai</KetQuaMongDoi>
+  </Addition>
+
+  <Addition> <!--Đúng-->
+    <MaHD>HD002</MaHD>
+    <TenKH>Nguyễn Anh Phi</TenKH>
+    <TenNV>Huỳnh Đức Long</TenNV>
+    <NgayLap>23-May-2022</NgayLap>
+    <TenSP>Xi Măng Fico</TenSP>
+    <DonGia>150</DonGia>
+    <DonViTinh>Bao</DonViTinh>
+    <SoLuong>100</SoLuong>
+    <KetQuaMongDoi>Thanh cong</KetQuaMongDoi>
+  </Addition>
+
+  <Addition> <!--Sai =>> 1 hđ chỉ có 1 nv lập-->
+    <MaHD>HD002</MaHD>
+    <TenKH>Nguyễn Anh Phi</TenKH>
+    <TenNV>Phan Văn Đạt</TenNV>
+    <NgayLap>23-May-2022</NgayLap>
+    <TenSP>Tôn Mạ Màu</TenSP>
+    <DonGia>150</DonGia>
+    <DonViTinh>Bao</DonViTinh>
+    <SoLuong>100</SoLuong>
+    <KetQuaMongDoi>That bai</KetQuaMongDoi>
+  </Addition>
+
+  <Addition> <!--Đúng-->
+    <MaHD>HD003</MaHD>
+    <TenKH>Nguyễn Anh Phi</TenKH>
+    <TenNV>Phan Văn Đạt</TenNV>
+    <NgayLap>31-May-2022</NgayLap>
+    <TenSP>Tôn Mạ Màu</TenSP>
+    <DonGia>100</DonGia>
+    <DonViTinh>Viên</DonViTinh>
+    <SoLuong>50</SoLuong>
+    <KetQuaMongDoi>Thanh cong</KetQuaMongDoi>
+  </Addition>
+
+  <Addition> <!--Sai =>> 1 sản phẩm không thể xuất hiện 2 lần trong 1 hđ-->
+    <MaHD>HD001</MaHD>
+    <TenKH>Nguyễn Anh Phi</TenKH>
+    <TenNV>Phan Văn Đạt</TenNV>
+    <NgayLap>20-May-2022</NgayLap>
+    <TenSP>Tôn Mạ Màu</TenSP>
+    <DonGia>100</DonGia>
+    <DonViTinh>Viên</DonViTinh>
+    <SoLuong>50</SoLuong>
+    <KetQuaMongDoi>That bai</KetQuaMongDoi>
+  </Addition>
+
+  <Addition> <!--Đúng-->
+    <MaHD>HD004</MaHD>
+    <TenKH>Nguyễn Thị Nở</TenKH>
+    <TenNV>Phan Văn Bình</TenNV>
+    <NgayLap>28-May-2021</NgayLap>
+    <TenSP>Đá 2*4</TenSP>
+    <DonGia>250</DonGia>
+    <DonViTinh>M2</DonViTinh>
+    <SoLuong>1000</SoLuong>
+    <KetQuaMongDoi>Thanh cong</KetQuaMongDoi>
+  </Addition>
+  
+</TestDatas>
