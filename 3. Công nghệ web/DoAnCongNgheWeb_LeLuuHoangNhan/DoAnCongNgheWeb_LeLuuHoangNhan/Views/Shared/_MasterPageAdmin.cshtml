@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <style>
+        .title-2{
+            background-color:#0027a7;
+            color:#ffffff;
+            font-weight:bold;
+            padding-top:5px;
+            padding-bottom:5px;
+        }
+        ul {
+            list-style-type: none;
+        }
+        li a {
+            color: #ffffff; font-size: 18px; line-height: 40px; margin-left: 20px;
+        }
+    </style>
+
+    <link href="~/Content/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row"> @* Dòng 1 *@
+            <div class="col-md-12">
+                <img src="~/Content/img/BOCUP.jpg" class="w-100" height="200" />
+            </div>
+        </div>
+
+        <div class="row mt-md-2 mb-md-5"> @* Dòng 2 *@
+            <div class="col-md-12 mt-md-2 mb-md-2 text-center">
+                @Html.Action("HienThiThongTinDangNhap")
+            </div>
+            <h2 class="col-md-12 title-2">Quản lý chức năng</h2>
+            <div class="col-md-3">
+                <ul style="background-color: #000000">
+                    <li class="border-bottom"><a href="@Url.Action("ThemSPMoi", "Admin", null)">Thêm sản phẩm mới</a></li>
+                    <li class="border-bottom"><a href="@Url.Action("NhapHang", "Admin", null)">Nhập hàng</a></li>
+                    <li class="border-bottom"><a href="@Url.Action("DonHang", "Admin", null)">Quản lý đơn đặt hàng</a></li>
+                    <li class="border-bottom"><a href="@Url.Action("ThongKeDoanhThu", "Admin", null)">Thống kê doanh thu</a></li>
+                </ul>
+            </div>
+            <div class="col-md-9 mt-md-1">
+                @RenderBody()
+            </div>
+        </div>
+
+        <div class="row"> @* Dòng 3 *@
+            <div class="col-md-12 bg-light text-center">
+                © 2021 Copyright:
+                <a class="text-dark" href="https://leluuhoangnhan.com/">LeLuuHoangNhan.com</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/Content/bootstrap/js/jquery-3.3.1.min.js"></script>
+    <script src="~/Content/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+﻿@using DoAnCongNgheWeb_LeLuuHoangNhan.Models;
+<a href="\Home\HienThiGioHang" class="ml-md-5 nav-link link-head">
+    <img src="~/Content/img/cart.png" width="25" height="25" />Giỏ hàng 
+    (
+    @{
+        var gh = Session["gio"] as GioHang;
+        if (gh == null)
+        {
+            <span>0</span>
+        }
+        else
+        {
+            <span>@gh.demSoMatHang()</span>
+        }
+    }
+    )
+</a>|
+@{
+    if (Session["tenDangNhap"] != null)
+    {
+        <a href="@Url.Action("LichSuMuaHang", "Home", new { chon = "ALL", maKH = Session["maKH"] })" class="ml-md-2" style="color: #808080">Lịch sử mua hàng</a>
+        <span>|</span>
+        <span class="ml-md-3">@Session["tenDangNhap"]</span>
+        <a href="@Url.Action("DangXuat","Home",null)"><img src="~/Content/img/shutdown.jpg" width="25" height="25" /></a>
+    }
+    else
+    {
+        <a class="nav-link link-head" href="@Url.Action("DangNhap","Home",null)">Login</a>
+    }
+}

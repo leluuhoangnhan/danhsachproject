@@ -1,0 +1,41 @@
+﻿@using DoAnCongNgheWeb_LeLuuHoangNhan.Models;
+@{
+    ViewBag.Title = "Trang chủ";
+    Layout = "~/Views/Shared/_MasterPage.cshtml";
+}
+
+
+@model List<SANPHAM>
+
+<h2 class="col-md-12 title">Trang chủ</h2>
+<div class="container-fluid">
+    <div class="row">
+        @{
+            foreach (var item in Model)
+            {
+                <div class="col-md-3 p-md-2 mt-md-5 h-100 border border-bottom-0" >
+                    <img src="/Content/img/@item.IMG_SP" class="w-100" height="250" />
+                    <div>
+                        @Html.ActionLink(@item.TENSP, "HienThiChiTietSP", "Home", new { masp = @item.MASP }, null)<br />
+                        <span>@item.GIA.ToString().AsFloat().ToString("#,##0") đ</span>
+                    </div>
+                    <a href="@Url.Action("ChonMua", "Home", new { maSP = item.MASP })"><img src="/Content/img/ChonMua.jpg" class="h-25 w-100 float-right" /></a>
+                </div>
+            }
+        }
+    </div>
+
+    <div class="row mt-md-5">
+        <div class="pagination">
+            <a class="btn border" href="#">&laquo;</a>
+            @{
+                for (int i = 1; i < 10; i++)
+                {
+                    <a class="btn btn-link border" href="#">@i</a>
+                }
+            }
+            <a class="btn border" href="#">&raquo;</a>
+        </div>
+    </div>
+
+</div>

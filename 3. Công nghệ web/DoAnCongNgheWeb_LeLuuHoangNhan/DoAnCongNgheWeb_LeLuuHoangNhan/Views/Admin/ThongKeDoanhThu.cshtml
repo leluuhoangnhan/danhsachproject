@@ -1,0 +1,70 @@
+﻿@using DoAnCongNgheWeb_LeLuuHoangNhan.Models;
+@{
+    ViewBag.Title = "Thống kê doanh thu";
+    Layout = "~/Views/Shared/_MasterPageAdmin.cshtml";
+}
+
+@model List<DONHANG>
+
+@helper TinhDoanhThu(List<DONHANG> dsDH)
+{
+    float doanhThu = 0;
+    foreach(DONHANG dh in dsDH)
+    {
+        int soLuong = int.Parse(dh.SOLUONG.ToString());
+        float gia = float.Parse(dh.GIA.ToString());
+        doanhThu += soLuong * gia;
+    }
+    @doanhThu.ToString().AsFloat().ToString("##,#0")
+}
+
+<h2 class="text-danger">Thống kê doanh thu</h2>
+<form action="/Admin/XuLyThongKe" method="post">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <input type="date" name="ngayGiaoHang" class="form-control" />
+            </div>
+            <div class="col-md-6">
+                <input type="checkbox" name="cb_ngay" value="Ngay" /> Ngày &nbsp; &nbsp;
+                <input type="checkbox" name="cb_thang" value="Thang" /> Tháng &nbsp; &nbsp;
+                <input type="checkbox" name="cb_nam" value="Nam" /> Năm &nbsp; &nbsp;
+                <button type="submit" class="btn btn-success">Lọc</button>
+            </div>
+        </div>
+
+        <div class="row mt-md-5">
+            <h3 class="col-md-12 text-primary">Đơn hàng đã bán</h3>
+            <table class="mt-md-2">
+                <tr>
+                    <th style="padding-right: 50px">Mã đơn hàng</th>
+                    <th style="padding-right: 50px">Mã sản phẩm</th>
+                    <th style="padding-right: 50px">Số lượng</th>
+                    <th style="padding-right: 50px">Giá bán</th>
+                    <th style="padding-right: 50px">Ngày đặt mua</th>
+                    <th style="padding-right: 50px">Ngày giao hàng</th>
+                </tr>
+                @{
+                    foreach (DONHANG dh in Model)
+                    {
+                        <tr class="border-top">
+                            <td>@dh.MADH</td>
+                            <td><a href="@Url.Action("HienThiChiTietSP", "Home", new { masp = dh.MASP_DATMUA })">@dh.MASP_DATMUA</a></td>
+                            <td>@dh.SOLUONG</td>
+                            <td>@dh.GIA.ToString().AsFloat().ToString("##,#0") đ</td>
+                            <td class="text-left">@dh.NGAYDATMUA.Value.Date.ToString("dd/MM/yyyy")</td>
+                            <td class="text-left">@dh.NGAYGIAOHANG.Value.Date.ToString("dd/MM/yyyy")</td>
+                        </tr>
+                    }
+                }
+            </table>
+        </div>
+
+        <div class="row mt-md-3">
+            <div class="col-md-12">
+                <b>Tổng doanh thu: </b>&nbsp; <span>@TinhDoanhThu(Model) đ</span>
+            </div>
+        </div>
+
+    </div>
+</form>

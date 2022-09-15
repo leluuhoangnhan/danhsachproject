@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Đăng nhập";
+    Layout = "~/Views/Shared/_MasterPageAdmin.cshtml";
+}
+
+<h2 class="text-danger">Đăng nhập</h2>
+<form action="/Admin/XuLyDangNhap" method="post" class="w-50">
+    <b>Tên đăng nhập: </b>
+    <input type="text" name="maNV" placeholder="Tên đăng nhập..." class="form-control mb-md-3" />
+    <b>Mật khẩu: </b>
+    <input type="password" name="matKhau_NV" placeholder="Mật khẩu..." class="form-control mb-md-3" />
+
+    <button type="submit" class="btn btn-info mt-md-3">Đăng nhập</button> &nbsp;
+</form>
+
+
+@{
+    if (Session["thongBaoDangNhap_Admin"] != null)
+    {
+        <p class="mt-md-5" style="color:red"><b>@Session["thongBaoDangNhap_Admin"]</b></p>
+    }
+
+    if (Session["nhanVien"] != null)
+    {
+        <p id="thongBao" hidden="hidden" title="Đăng nhập thành công!"></p>
+        <script>
+            alert(this.thongBao.title)
+            window.location = "Home"
+        </script>
+    }
+}

@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <style>
+        .link-head:hover{
+            font-weight:bold;
+        }
+        .title{
+            background-color:#ff6a00;
+            color:#ffffff;
+            font-weight:bold;
+            padding-top:5px;
+            padding-bottom:5px;
+        }
+        .title-1{
+            background-color:#0f64ea;
+            color:#ffffff;
+            font-weight:bold;
+            padding-top:5px;
+            padding-bottom:5px;
+        }
+    </style>
+
+    <!-- Bootstrap Mới -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <!-- Bootstrap Cũ -->
+    <link href="~/Content/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="main">
+        <div id="head">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <b><a class="navbar-brand" href="/Home">BOCUP STORE</a></b>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/Home">Trang chủ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="@Url.Action("GioiThieu","Home",null)">Giới thiệu</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Sản phẩm
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    @Html.Action("HienThiMenuLoaiSP")
+
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="@Url.Action("HangMoiVe","Home", null)">Hàng mới về</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled">Khác</a>
+                            </li>
+                        </ul>
+                        <form action="/Home/TimKiem" method="post" class="d-flex">
+                            <input name="timKiem" class="form-control me-2" type="search" placeholder="Nhập thông tin cần tìm..." aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Tìm kiếm</button>
+                        </form>
+
+                        @Html.Action("HienThiGioHang_TaiKhoan")
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div id="slide">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="/Content/img/H0.jpg" class="d-block w-100" height="600" alt="Hình 0">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Kem Dưỡng Da Body</h5>
+                            <p>Hàng mới về từ Hàng Quốc, tốt cho mọi làn da.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="/Content/img/H1.jpg" class="d-block w-100" height="600" alt="Hình 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>BOCUP STORE - Mỹ phẩm chính hãng</h5>
+                            <p>Chuyên cung cấp những dòng mỹ phẩm chính hãng đến từ Hàn Quốc.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/Content/img/H2.jpg" class="d-block w-100" height="600" alt="Hình 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Serum Hoàng Gia</h5>
+                            <p>Sản phẩm độc quyền, bán chạy nhất tại BOCUP STORE.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="row mt-md-3 pb-md-5">
+            <div class="col-md-3">
+                <h2 class="col-md-12 title" style="background-color:#4e4e4e">Menu Sản Phẩm</h2>
+                @Html.Action("HienThiMenuLoaiSP")
+            </div>
+
+            <div id="content" class="col-md-9">
+                @RenderBody()
+            </div>
+        </div>
+
+        <div id="footer" class="mt-md-5">
+            <footer class="bg-light text-center text-lg-start">
+                <!-- Grid container -->
+                <div class="container p-4">
+                    <!--Grid row-->
+                    <div class="row">
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="card-title"><b>Chính sách</b></h5>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="text-dark">Chính sách mua hàng</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-dark">Chính sách đổi trả</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-dark">Chính sách bảo hành</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-dark">Chính sách bảo mật</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="card-title"><b>Giới thiệu</b></h5>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="text-dark">Tổng quát</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-dark">Tuyển dụng</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-dark">Góp ý, khiếu nại</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-dark">Tìm cửa hàng</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="card-title"><b>Tổng đài hỗ trợ</b></h5>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="tel:0938237485" class="text-dark">Hotline 1: <span style="color:#0f64ea">0938.237.485</span> (Zalo)</a>
+                                </li>
+                                <li>
+                                    <a href="tel:0938237485" class="text-dark">Hotline 2: <span style="color:#0f64ea">0925.584.998</span> (Zalo)</a>
+                                </li>
+                                <li>
+                                    <a href="tel:0938237485" class="text-dark">Hotline 3: <span style="color:#0f64ea">0925.584.992</span> (Zalo)</a>
+                                </li>
+                                <li>
+                                    <a href="tel:0938237485" class="text-dark">Hotline 4: <span style="color:#0f64ea">034.8494.184</span> (Zalo)</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="card-title"><b>Chi nhánh</b></h5>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="text-dark">Miền bắc</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-dark">Miền trung</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-dark">Miền nam</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-dark">Ngoài nước</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </div>
+                <!-- Grid container -->
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                    © 2021 Copyright:
+                    <a class="text-dark" href="https://leluuhoangnhan.com/">LeLuuHoangNhan.com</a>
+                </div>
+                <!-- Copyright -->
+            </footer>
+        </div>
+
+    </div>
+
+
+    <!-- js mới -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <!-- js cũ -->
+    <script src="~/Content/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/Content/bootstrap/js/jquery-3.3.1.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "DangNhap";
+    Layout = "~/Views/Shared/_MasterPage.cshtml";
+}
+
+<h2 class="col-md-12 title">Đăng nhập</h2>
+<form action="/Home/XuLyDangNhap" method="post" enctype="multipart/form-data" class="w-50">
+    <b>Tên đăng nhập: </b>
+    <input type="text" name="maKH" placeholder="Tên đăng nhập..." class="form-control mb-md-3" />
+    <b>Mật khẩu: </b>
+    <input type="password" name="matKhau" placeholder="Mật khẩu..." class="form-control mb-md-3" />
+
+    <button type="submit" class="btn btn-info mt-md-3">Đăng nhập</button> &nbsp;
+    <a href="@Url.Action("DangKy","Home",null)" class="btn btn-info mt-md-3">Đăng ký</a>
+</form>
+
+
+@{
+    if (Session["thongBao"] != null)
+    {
+        <p class="mt-md-5" style="color:red"><b>@Session["thongBao"]</b></p>
+    }
+
+    if (Session["tenDangNhap"] != null)
+    {
+        <p id="thongBao" hidden="hidden" title="Đăng nhập thành công!"></p>
+        <script>
+            alert(this.thongBao.title)
+            window.location = "Home"
+        </script>
+    }
+}

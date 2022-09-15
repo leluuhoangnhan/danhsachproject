@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Thêm sản phẩm mới";
+    Layout = "~/Views/Shared/_MasterPageAdmin.cshtml";
+}
+
+<h2 class="text-danger">Thêm sản phẩm mới</h2>
+<form action="/Admin/XuLyThemSPMoi" method="post" enctype="multipart/form-data" class="w-50">
+    <b>Mã sản phẩm: </b>
+    <input type="text" name="maSP" placeholder="Mã sản phẩm" class="form-control mb-md-3" />
+    <b>Tên sản phẩm: </b>
+    <input type="text" name="tenSP" placeholder="Tên sản phẩm" class="form-control mb-md-3" />
+    <b>Mô tả: </b>
+    <textarea name="moTa" placeholder="Mô tả chi tiết sản phẩm" class="form-control mb-md-3"></textarea>
+    <b>Giá bán: </b>
+    <input type="number" name="gia" placeholder="Giá bán" class="form-control mb-md-3" />
+    <b>Số lượng: </b>
+    <input type="number" name="soLuong" placeholder="Số lượng" class="form-control mb-md-3" />
+    <b>Tên loại: </b>
+    <div class="mb-md-3">
+        @Html.DropDownList("MALOAI")
+    </div>
+    <b>Tên nhà sản xuất: </b>
+    <div class="mb-md-3">
+        @Html.DropDownList("MANSX")
+    </div>
+    <b>Ảnh sản phẩm: </b>
+    <input type="file" name="hinhAnh" /> <br />
+
+    <button type="submit" class="btn btn-success mt-md-3">Thêm</button>
+
+</form>
+
+@{
+    if (Session["thongBaoThemSP"] != null)
+    {
+        <p class="mt-md-5" style="color:red"><b>@Session["thongBaoThemSP"]</b></p>
+    }
+}

@@ -1,0 +1,13 @@
+﻿@using DoAnCongNgheWeb_LeLuuHoangNhan.Models;
+
+@model List<LOAI>
+
+
+@{
+    foreach (var item in Model)
+    {
+        <span>
+            @Html.ActionLink(@item.TENLOAI, "HienThiSPCungLoai", "Home", new { maLoai = @item.MALOAI }, new { @class = "dropdown-item" })
+        </span>
+    }
+}

@@ -1,0 +1,40 @@
+﻿@using DoAnCongNgheWeb_LeLuuHoangNhan.Models;
+@{
+    ViewBag.Title = "Giỏ hàng";
+    Layout = "~/Views/Shared/_MasterPage.cshtml";
+}
+
+@model List<SanPham>
+
+<h2 class="col-md-12 title">Giỏ hàng</h2>
+<table>
+    <tr>
+        <th class="p-md-2">Mã sản phẩm</th>
+        <th class="p-md-2">Tên sản phẩm</th>
+        <th class="p-md-2">Hình ảnh</th>
+        <th class="p-md-2"></th>
+        <th class="p-md-2">Số lượng</th>
+        <th class="p-md-2"></th>
+        <th class="p-md-2">Đơn giá</th>
+        <th class="p-md-2">Thành tiền</th>
+        <th class="p-md-2"></th>
+    </tr>
+    @{
+        foreach (SanPham sp in Model)
+        {
+            <tr class="border-top">
+                <td>@sp.maSP</td>
+                <td><a href="@Url.Action("HienThiChiTietSP", "Home", new { masp = sp.maSP})">@sp.tenSP</a></td>
+                <td><img src="~/Content/img/@sp.img_sp" width="50" height="50" /></td>
+                <td><a class="btn btn-success" href="@Url.Action("MuaThem", "Home", new { masp = sp.maSP})">+</a></td>
+                <td class="text-center">@sp.soLuong</td>
+                <td><a class="btn btn-warning" href="@Url.Action("GiamBot", "Home", new { masp = sp.maSP})">-</a></td>
+                <td>@sp.gia.ToString().AsFloat().ToString("##,#0")</td>
+                <td>@sp.tinhThanhTien().ToString().AsFloat().ToString("##,#0")</td>
+                <td><a class="btn btn-danger" href="@Url.Action("XoaSPRaGio", "Home", new { maSP = sp.maSP})">Xóa</a></td>
+            </tr>
+        }
+    }
+</table>
+
+<a class="btn btn-dark mt-md-3" href="\Home\DatHang">Đặt hàng</a>

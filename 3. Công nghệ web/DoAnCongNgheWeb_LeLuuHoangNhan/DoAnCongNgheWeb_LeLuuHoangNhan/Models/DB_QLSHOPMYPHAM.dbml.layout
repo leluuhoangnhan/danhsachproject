@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DB_QLSHOPMYPHAM">
+  <DataContextMoniker Name="/DB_QLSHOPMYPHAMDataContext" />
+  <nestedChildShapes>
+    <classShape Id="2844ad0d-a304-4f6a-b55c-b4baa648e929" absoluteBounds="4.75, 0.625, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DB_QLSHOPMYPHAMDataContext/DONHANG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1a78f4be-52d3-455c-969a-c1ede256c5d7" absoluteBounds="4.765, 1.085, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c3287f99-6d55-4139-abe4-bad8310f2160" absoluteBounds="7.75, 0.5, 2, 3.1170068359375">
+      <DataClassMoniker Name="/DB_QLSHOPMYPHAMDataContext/KHACHHANG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3e37ec79-a29e-4af5-9bb5-29448a746820" absoluteBounds="7.7650000000000006, 0.96, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.75 : 1.70274983723958); (6.75 : 1.70274983723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DB_QLSHOPMYPHAMDataContext/KHACHHANG/KHACHHANG_DONHANG" />
+      <nodes>
+        <classShapeMoniker Id="c3287f99-6d55-4139-abe4-bad8310f2160" />
+        <classShapeMoniker Id="2844ad0d-a304-4f6a-b55c-b4baa648e929" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="2105d05d-2966-4458-bedc-17251d3f6a22" absoluteBounds="1.75, 4, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DB_QLSHOPMYPHAMDataContext/LOAI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3d24b18e-d455-46ad-a5d7-3152c8b36dce" absoluteBounds="1.7649999999999997, 4.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ec6e8a10-0162-4346-9e7d-50cf6bf36b01" absoluteBounds="1.75, 0.5, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/DB_QLSHOPMYPHAMDataContext/NHANVIEN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0364581a-14c6-4eee-90d3-ebdb4f5dbb02" absoluteBounds="1.7649999999999997, 0.96, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8b2c888a-7fbe-4e4d-93a0-ba1b24bc1724" absoluteBounds="7.75, 3.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DB_QLSHOPMYPHAMDataContext/NHASANXUAT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7f5d905d-89cf-4a10-86b4-6543d6c63899" absoluteBounds="7.7650000000000006, 4.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8ca5a05b-423c-4da5-8e07-20a01d9cf97f" absoluteBounds="4.75, 3.125, 2, 2.5401025390625">
+      <DataClassMoniker Name="/DB_QLSHOPMYPHAMDataContext/SANPHAM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3d498067-6f76-4f4e-8435-81cedbafd909" absoluteBounds="4.765, 3.585, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.75 : 3.125); (5.75 : 2.78049967447917)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DB_QLSHOPMYPHAMDataContext/SANPHAM/SANPHAM_DONHANG" />
+      <nodes>
+        <classShapeMoniker Id="8ca5a05b-423c-4da5-8e07-20a01d9cf97f" />
+        <classShapeMoniker Id="2844ad0d-a304-4f6a-b55c-b4baa648e929" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.75 : 4.69314697265625); (4.75 : 4.69314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DB_QLSHOPMYPHAMDataContext/LOAI/LOAI_SANPHAM" />
+      <nodes>
+        <classShapeMoniker Id="2105d05d-2966-4458-bedc-17251d3f6a22" />
+        <classShapeMoniker Id="8ca5a05b-423c-4da5-8e07-20a01d9cf97f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.75 : 4.76044840494792); (6.75 : 4.76044840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DB_QLSHOPMYPHAMDataContext/NHASANXUAT/NHASANXUAT_SANPHAM" />
+      <nodes>
+        <classShapeMoniker Id="8b2c888a-7fbe-4e4d-93a0-ba1b24bc1724" />
+        <classShapeMoniker Id="8ca5a05b-423c-4da5-8e07-20a01d9cf97f" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

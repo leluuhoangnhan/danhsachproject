@@ -1,0 +1,33 @@
+﻿@using DoAnCongNgheWeb_LeLuuHoangNhan.Models;
+@{
+    ViewBag.Title = "Đặt hàng";
+    Layout = "~/Views/Shared/_MasterPage.cshtml";
+}
+
+@model KHACHHANG
+
+<h2 class="col-md-12 title">Đặt hàng</h2>
+<form action="/Home/XacNhanDatHang" method="post">
+    <h3 class="mb-md-3"><b>Xác nhận đặt hàng</b></h3>
+    <p><b>Họ tên khách hàng: </b>@Model.TENKH</p>
+    <p class="mt-md-2"><b>Địa chỉ: </b>@Model.DIACHI</p>
+    <p class="mt-md-2"><b>Email: </b>@Model.EMAIL</p>
+    <p class="mt-md-2"><b>Điện thoại: </b>@Model.SDT</p>
+    <p class="mt-md-2"><b>Ngày đặt: </b>@DateTime.Now.ToShortDateString()</p>
+    <p class="mt-md-2" style="color: red"><b>Đơn hàng sẽ được giao trong vòng 3-5 ngày.</b></p>
+
+    <button type="submit" name="btn_xacNhan" class="mt-md-3 btn btn-primary">Xác nhận đặt hàng</button>
+</form>
+
+@{
+    if (Session["thongBaoDatHang"] != null)
+    {
+        <p id="thongBao" hidden="hidden" title="@Session["thongBaoDatHang"]"></p>
+        <script>
+            alert(this.thongBao.title)
+            window.location = "Home"
+        </script>
+    }
+}
+
+

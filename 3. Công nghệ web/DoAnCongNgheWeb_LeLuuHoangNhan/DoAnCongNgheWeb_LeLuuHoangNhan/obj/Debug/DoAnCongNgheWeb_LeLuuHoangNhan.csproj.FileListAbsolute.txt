@@ -1,0 +1,108 @@
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\DoAnCongNgheWeb_LeLuuHoangNhan.dll.config
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\DoAnCongNgheWeb_LeLuuHoangNhan.dll
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\DoAnCongNgheWeb_LeLuuHoangNhan.pdb
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\Antlr3.Runtime.dll
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\EntityFramework.dll
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\Newtonsoft.Json.dll
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Net.Http.dll
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Net.Http.Formatting.dll
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Net.Http.WebRequest.dll
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Http.dll
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Http.WebHost.dll
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Mvc.dll
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Optimization.dll
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Providers.dll
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Razor.dll
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.WebPages.Deployment.dll
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.WebPages.dll
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.WebPages.Razor.dll
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\WebGrease.dll
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\EntityFramework.xml
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\Newtonsoft.Json.xml
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Net.Http.xml
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Net.Http.Formatting.xml
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Net.Http.WebRequest.xml
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Http.xml
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Http.WebHost.xml
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Mvc.xml
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Razor.xml
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.WebPages.xml
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.WebPages.Deployment.xml
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.WebPages.Razor.xml
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\obj\Debug\DoAnCongNgheWeb_LeLuuHoangNhan.csprojResolveAssemblyReference.cache
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\obj\Debug\DoAnCongNgheWeb_LeLuuHoangNhan.dll
+C:\Users\LeLuuHoangNhan\Downloads\Công nghệ Web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\obj\Debug\DoAnCongNgheWeb_LeLuuHoangNhan.pdb
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\DoAnCongNgheWeb_LeLuuHoangNhan.dll.config
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\DoAnCongNgheWeb_LeLuuHoangNhan.dll
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\DoAnCongNgheWeb_LeLuuHoangNhan.pdb
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\Antlr3.Runtime.dll
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\EntityFramework.dll
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\Newtonsoft.Json.dll
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Net.Http.dll
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Net.Http.Formatting.dll
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Net.Http.WebRequest.dll
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Http.dll
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Http.WebHost.dll
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Mvc.dll
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Optimization.dll
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Providers.dll
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Razor.dll
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.WebPages.Deployment.dll
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.WebPages.dll
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.WebPages.Razor.dll
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\WebGrease.dll
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\EntityFramework.xml
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\Newtonsoft.Json.xml
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Net.Http.xml
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Net.Http.Formatting.xml
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Net.Http.WebRequest.xml
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Http.xml
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Http.WebHost.xml
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Mvc.xml
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Razor.xml
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.WebPages.xml
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.WebPages.Deployment.xml
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.WebPages.Razor.xml
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\obj\Debug\DoAnCongNgheWeb_LeLuuHoangNhan.csprojResolveAssemblyReference.cache
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\obj\Debug\DoAnCongNgheWeb_LeLuuHoangNhan.dll
+C:\Users\LeLuuHoangNhan\Downloads\Lan02\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\obj\Debug\DoAnCongNgheWeb_LeLuuHoangNhan.pdb
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\DoAnCongNgheWeb_LeLuuHoangNhan.dll.config
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\DoAnCongNgheWeb_LeLuuHoangNhan.dll
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\DoAnCongNgheWeb_LeLuuHoangNhan.pdb
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\Antlr3.Runtime.dll
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\EntityFramework.dll
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\Newtonsoft.Json.dll
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Net.Http.dll
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Net.Http.Formatting.dll
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Net.Http.WebRequest.dll
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Http.dll
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Http.WebHost.dll
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Mvc.dll
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Optimization.dll
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Providers.dll
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Razor.dll
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.WebPages.Deployment.dll
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.WebPages.dll
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.WebPages.Razor.dll
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\WebGrease.dll
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\EntityFramework.xml
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\Newtonsoft.Json.xml
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Net.Http.xml
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Net.Http.Formatting.xml
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Net.Http.WebRequest.xml
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Http.xml
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Http.WebHost.xml
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Mvc.xml
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.Razor.xml
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.WebPages.xml
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.WebPages.Deployment.xml
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\bin\System.Web.WebPages.Razor.xml
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\obj\Debug\DoAnCongNgheWeb_LeLuuHoangNhan.csprojResolveAssemblyReference.cache
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\obj\Debug\DoAnCongNgheWeb_LeLuuHoangNhan.dll
+C:\Users\LeLuuHoangNhan\Downloads\Cong nghe web\DoAnCongNgheWeb_LeLuuHoangNhan\DoAnCongNgheWeb_LeLuuHoangNhan\obj\Debug\DoAnCongNgheWeb_LeLuuHoangNhan.pdb

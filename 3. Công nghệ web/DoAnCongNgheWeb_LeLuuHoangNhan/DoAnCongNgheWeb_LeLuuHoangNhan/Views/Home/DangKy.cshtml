@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Đăng ký";
+    Layout = "~/Views/Shared/_MasterPage.cshtml";
+}
+
+<h2 class="col-md-12 title">Đăng ký</h2>
+<form action="/Home/XuLyDangKy" method="post" enctype="multipart/form-data" class="w-50">
+    <b>Tên đăng nhập: </b>
+    <input type="text" name="maKH" placeholder="Tên đăng nhập..." class="form-control mb-md-3" />
+    <b>Tên khách hàng: </b>
+    <input type="text" name="tenKH" placeholder="Họ và tên..." class="form-control mb-md-3" />
+    <b>Ngày sinh: </b>
+    <input type="date" name="ngaySinh" class="form-control mb-md-3" />
+    <b>Giới tính: </b> &nbsp;&nbsp;&nbsp;
+    <input type="radio" name="rd_gioiTinh" value="1" class="mb-md-4" checked/> Nam &nbsp;
+    <input type="radio" name="rd_gioiTinh" value="0" class="mb-md-4" /> Nữ <br />
+    <b>Số điện thoại: </b>
+    <input type="tel" name="sdt" placeholder="Số điện thoại..." class="form-control mb-md-3" />
+    <b>Email: </b>
+    <input type="email" name="email" placeholder="Email..." class="form-control mb-md-3" />
+    <b>Địa chỉ: </b>
+    <input type="text" name="diaChi" placeholder="Địa chỉ..." class="form-control mb-md-3" />
+    <b>Ảnh đại diện: </b>
+    <input type="file" name="hinhAnh" class="mb-md-3" /> <br />
+    <b>Mật khẩu: </b>
+    <input type="password" name="matKhau" placeholder="Mật khẩu..." class="form-control mb-md-3" />
+    <b>Xác nhận mật khẩu: </b>
+    <input type="password" name="xacNhanMatKhau" placeholder="Xác nhận mật khẩu..." class="form-control" />
+
+    <button type="submit" class="btn btn-danger mt-md-3">Đăng ký</button>
+
+</form>
+
+@{
+    if(Session["thongBao"] != null)
+    {
+        <p class="mt-md-5" style="color:red"><b>@Session["thongBao"]</b></p>
+    }
+}
+

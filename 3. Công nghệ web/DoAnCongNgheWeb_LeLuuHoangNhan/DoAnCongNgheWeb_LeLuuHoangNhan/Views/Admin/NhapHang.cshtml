@@ -1,0 +1,52 @@
+﻿@using DoAnCongNgheWeb_LeLuuHoangNhan.Models;
+@{
+    ViewBag.Title = "Nhập hàng";
+    Layout = "~/Views/Shared/_MasterPageAdmin.cshtml";
+}
+
+@model List<SANPHAM>
+
+@helper Truncate (string input, int length)
+{
+    if(input.Length <= length)
+    {
+        @input
+    }
+    else
+    {
+        @input.Substring(0, length)<text>...</text>
+    }
+    
+}
+
+<h2 class="text-danger">Nhập hàng</h2>
+<form action="/Admin/XuLyNhapHang" method="post" class="mt-md-3 mb-md-5">
+    @Html.DropDownList("MASP")
+    <input type="number" name="soLuongNhap" placeholder="0" class="form-control mt-md-3"/>
+    <button type="submit" class="btn btn-dark mt-md-3">Nhập hàng</button>
+</form>
+
+<h2 class="text-danger">Danh sách sản phẩm</h2>
+<div>
+    <table>
+        <tr>
+            <th style="padding-right: 50px">Mã sản phẩm</th>
+            <th style="padding-right: 50px">Tên sản phẩm</th>
+            <th style="padding-right: 50px">Hình ảnh</th>
+            <th style="padding-right: 50px">Số lượng</th>
+            <th style="padding-right: 50px">Giá bán</th>
+        </tr>
+        @{
+            foreach (SANPHAM sp in Model)
+            {
+                <tr class="border-top">
+                    <td>@sp.MASP</td>
+                    <td><a href="@Url.Action("HienThiChiTietSP", "Home", new { masp = sp.MASP})">@Truncate(sp.TENSP, 50)</a></td>
+                    <td><img src="~/Content/img/@sp.IMG_SP" width="50" height="50" /></td>
+                    <td>@sp.SOLUONG</td>
+                    <td>@sp.GIA.ToString().AsFloat().ToString("##,#0") đ</td>
+                </tr>
+            }
+        }
+    </table>
+</div>

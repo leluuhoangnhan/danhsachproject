@@ -1,0 +1,69 @@
+﻿@using DoAnCongNgheWeb_LeLuuHoangNhan.Models;
+@{
+    ViewBag.Title = "Đơn hàng";
+    Layout = "~/Views/Shared/_MasterPageAdmin.cshtml";
+}
+
+@helper Truncate(string input, int length)
+{
+    if (input.Length <= length)
+    {
+        @input
+    }
+    else
+    {
+        @input.Substring(0, length)<text>...</text>
+    }
+
+}
+
+@model List<DONHANG>
+
+<h2 class="text-danger">Danh sách đơn hàng</h2>
+<form action="/Admin/XuLyDonHang" method="post">
+    <table>
+        <tr>
+            <th style="padding-right: 50px">Mã đơn hàng</th>
+            <th style="padding-right: 50px">Tên sản phẩm</th>
+            <th style="padding-right: 50px">Số lượng</th>
+            <th style="padding-right: 50px">Giá bán</th>
+            <th style="padding-right: 50px">Ngày đặt mua</th>
+            <th style="padding-right: 50px">Duyệt đơn</th>
+            <th style="padding-right: 50px">Giao đơn</th>
+        </tr>
+        @{
+            foreach (DONHANG dh in Model)
+            {
+                <tr class="border-top">
+                    <td>@dh.MADH</td>
+                    <td><a href="@Url.Action("HienThiChiTietSP", "Home", new { masp = dh.MASP_DATMUA})">@Truncate(dh.SANPHAM.TENSP, 50)</a></td>
+                    <td>@dh.SOLUONG</td>
+                    <td>@dh.GIA.ToString().AsFloat().ToString("##,#0") đ</td>
+                    <td>@dh.NGAYDATMUA.Value.Date.ToString("dd/MM/yyyy")</td>
+                    @{
+                        if (dh.NGAYGIAOHANG == null)
+                        {
+                            <td><input type="checkbox" name="cb_duyetDon" value="@dh.MADH" /></td>
+                            <td><input type="checkbox" name="cb_giaoDon" value="@dh.MADH" /></td>
+                        }
+                        else if (DateTime.Compare(dh.NGAYGIAOHANG.Value.Date, dh.NGAYDATMUA.Value.Date) == 0)
+                        {
+                            <td><input type="checkbox" name="cb_duyetDon" value="@dh.MADH" checked disabled />Đã duyệt</td>
+                            <td><input type="checkbox" name="cb_giaoDon" value="@dh.MADH" /></td>
+                        }
+                        else
+                        {
+                            <td><input type="checkbox" name="cb_duyetDon" value="@dh.MADH" checked disabled />Đã duyệt</td>
+                            <td><input type="checkbox" name="cb_giaoDon" value="@dh.MADH" checked disabled />Đã giao</td>
+                        }
+                    }
+              </tr>
+          }
+       }
+    </table>
+
+    <button type="submit" class="btn btn-success mt-md-3">Save</button>
+</form>
+
+
+

@@ -1,0 +1,102 @@
+﻿@using DoAnCongNgheWeb_LeLuuHoangNhan.Models;
+@{
+    ViewBag.Title = "Chi tiết sản phẩm";
+    Layout = "~/Views/Shared/_MasterPage.cshtml";
+    var spCungLoai = ViewBag.spCungLoai as List<SANPHAM>;
+    var spCungNSX = ViewBag.spCungNSX as List<SANPHAM>;
+}
+
+@model SANPHAM
+
+<link rel="stylesheet" href="style.css" />
+
+<h2 class="mb-md-3 col-md-12 title">Chi tiết sản phẩm</h2>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="~/Content/img/@Model.IMG_SP" class="ml-md-5 h-75 w-75"/>
+        </div>
+
+        <div class="col-md-6">
+            <h2><b>@Model.TENSP</b></h2>
+            <p class="mt-md-3 mb-md-3" style="opacity:0.7; font-size:18px">@Model.MOTA</p>
+            <p style="color:#ff0000; font-size:30px"><b>GIÁ BÁN: @Model.GIA.ToString().AsFloat().ToString("##,#0")đ</b></p>
+            <p class="mr-md-5" style="font-size:20px">- Mã sản phẩm: <b>@Model.MASP</b> </p>
+            <p class="mr-md-5" style="font-size:20px">- Mã loại: <b>@Model.MALOAI</b> </p>
+            <p class="mr-md-5" style="font-size:20px">- Mã nhà sản xuất: <b>@Model.MANSX</b> </p>
+
+
+            <div class="row mt-md-4">
+                @*<div class="col-md-4">
+                    <table border="1" class="w-100">
+                        <tr>
+                            <td><button class="btn btn-danger float-left minus" type="button">-</button></td>
+                            <td><span id="num" style="font-size:16px">01</span></td>
+                            <td><button class="btn btn-success float-right plus" type="button">+</button></td>
+                        </tr>
+                    </table>
+                </div>*@
+
+                <div class="col-md-8 float-left">
+                    <a href="@Url.Action("ChonMua", "Home", new { maSP = @Model.MASP })" class="btn btn-warning p-md-2 w-75 h-100" style="font-size:20px;color:#ffffff"><b>ĐẶT MUA NGAY</b></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row mt-md-5">
+        <h2 class="mb-md-3 col-md-10 title-1">Sản phẩm cùng loại</h2>
+        <div class="mb-md-3 col-md-2"></div>
+        @{
+            foreach (var sp in spCungLoai)
+            {
+                <div class="col-md-2">
+                    <img src="~/Content/img/@sp.IMG_SP" class="w-100 h-50" />
+                    @Html.ActionLink(@sp.TENSP, "HienThiChiTietSP", "Home", new { masp = @sp.MASP }, null) <br />
+                    <span>@sp.GIA.ToString().AsFloat().ToString("#,##0") đ</span>
+                </div>
+            }
+        }
+    </div>
+
+    <div class="row mt-md-5">
+        <h2 class="mb-md-3 col-md-10 title-1">Sản phẩm cùng nhà sản xuất</h2>
+        <div class="mb-md-3 col-md-2"></div>
+        @{
+            foreach (var sp in spCungNSX)
+            {
+                <div class="col-md-2">
+                    <img src="~/Content/img/@sp.IMG_SP" class="w-100 h-50" />
+                    @Html.ActionLink(@sp.TENSP, "HienThiChiTietSP", "Home", new { masp = @sp.MASP }, null) <br />
+                    <span>@sp.GIA.ToString().AsFloat().ToString("#,##0") đ</span>
+                </div>
+            }
+        }
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

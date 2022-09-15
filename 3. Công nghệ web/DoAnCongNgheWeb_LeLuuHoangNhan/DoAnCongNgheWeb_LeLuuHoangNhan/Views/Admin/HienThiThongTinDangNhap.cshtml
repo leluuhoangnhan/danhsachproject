@@ -1,0 +1,16 @@
+﻿@using DoAnCongNgheWeb_LeLuuHoangNhan.Models;
+@{
+    var nv = Session["nhanVien"] as NHANVIEN;
+}
+
+@{
+    if (nv == null)
+    {
+        <a href="@Url.Action("DangNhap", "Admin", null)" class="btn btn-danger">Login</a>
+    }
+    else
+    {
+        <span>Xin chào, @nv.TENNV</span>
+        <a href="@Url.Action("DangXuat","Admin",null)"><img src="~/Content/img/shutdown.jpg" width="25" height="25" /></a>
+    }
+}
